@@ -1,6 +1,7 @@
 
 body {
     margin: 0 auto;
+    
     font-family: sans-serif;
     background-color: ;
 }
@@ -58,4 +59,68 @@ body {
     margin: 0 auto;
     margin-right: 200px;
     border: 2px solid green;
+}
+
+section h1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#item-container {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    border: 2px solid red;
+}
+
+.item {
+    height: 150px;
+    width: 150px;
+    border-radius: 20px;
+    border: 2px solid blue;
+}
+
+#item-info {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.item-text {
+    text-align: center;
+    max-width: 250px;
+}
+
+#quote-container {
+    border: 2px solid blue;
+    height: 300px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#quote {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#info-2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    width: 100%;
+    bottom: 0;
+    position: sticky;
+    background-color: #1F2937;
+    
+}
+
+footer p {
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+    text-align: center;
 }
